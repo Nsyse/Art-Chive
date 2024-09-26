@@ -13,7 +13,7 @@ export default function NavBar() {
         <>
             <div className="navBar" style={{backgroundColor: data}}>
                 <a className="logo" href="https://www.scruffybrush.ca" target="_blank">
-                    <img src="./public/Logo.png"/>
+                    <img src="./images/Logo.png"/>
                 </a>
                 <h1>Art-chive</h1>
             </div>
