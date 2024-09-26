@@ -12,7 +12,7 @@
   will-change: filter;
   transition: filter 300ms;
   filter: drop-shadow(0.2em 0.2em 0.2em #000000);
-  background-color: #1c5b4b;
+  background-color: #daf2d2;
   border-radius: 1em;
   display: flex;
 }
@@ -63,7 +63,7 @@
   position: fixed;
   width: 100%;
   display: flex;
-  background-color: #447e8f;
+  background-color: #1c5b4b;
   align-items: center;
   justify-content: flex-start;
   /*height: 3em;*/

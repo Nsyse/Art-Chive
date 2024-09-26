@@ -25,8 +25,9 @@ export default [
         creationDate:"April 7 2020",
         fileName:"Wolf_TShirt.png",
         medium: "Animal Crossing : New Horizons,\n Clip Studio Paint",
-        description: "Gift art of a Kirin character named Duan to thank them for drawing me an amazing gift during Artfight." +
-            "\nTried to work with color more actively than I usually do on this one and happy how it turned out.",
+        description: "During Pandemic resumed doing a lot of Pixelart and hanged out with friends mostly digitally, in part thanks to Animal Crossing on Switch.\n" +
+            "Decided to celebrate it by turning a T-Shirt I made for myself ingame into a real one through Redbubble!\n" +
+            "I mostly wear it as pyjama, it's comfy cotton but pretty cheap to be honest.",
         purchaseLink: "https://www.redbubble.com/i/t-shirt/Minimalistic-Howling-Werewolf-Silouhette-by-Nsyse/46978734.1YYVU"
     }
 ]
