@@ -3,7 +3,7 @@ import Color, {useColor} from 'color-thief-react';
 
 export default function NavBar() {
 
-    const imageSource = `./public/Logo.png`;
+    const imageSource = `./images/Logo.png`;
 
     const {data, loading, error} = useColor(imageSource, "hex")
     console.log(loading);

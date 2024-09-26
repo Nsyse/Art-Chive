@@ -5,7 +5,7 @@ import {usePalette} from 'color-thief-react';
 }
 
 export default function ArtPiece(props) {
-    const imageSource = `./public/${props.fileName}`;
+    const imageSource = `./images/${props.fileName}`;
     // eslint-disable-next-line no-unused-vars
     const {data, loading, error} = usePalette(imageSource, 2, "hex")
 
