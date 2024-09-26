@@ -1,0 +1,154 @@
+#root {
+  /*margin: 0 auto;*/
+  text-align: center;
+  width: 100%;
+}
+
+.logo {
+  position:relative;
+  top: 10px;
+  padding: 1.5em;
+  margin: 1em;
+  will-change: filter;
+  transition: filter 300ms;
+  filter: drop-shadow(0.2em 0.2em 0.2em #000000);
+  background-color: #1c5b4b;
+  border-radius: 1em;
+  display: flex;
+}
+
+.logo > img {
+  -moz-transform: scale(2);
+  -ms-transform: scale(2);
+  -o-transform: scale(2);
+  -webkit-transform: scale(2);
+  transform: scale(2);
+  align-self: center;
+  image-rendering: pixelated;
+}
+
+.logo:hover {
+  filter: drop-shadow(0.3em 0.3em 0.3em #ffffff) brightness(1.4);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.navBar{
+  height: 3.5rem;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  background-color: #447e8f;
+  align-items: center;
+  justify-content: flex-start;
+  /*height: 3em;*/
+  box-shadow: 0px 5px 5px black;
+  color: #242424;
+}
+
+.navBar > h1{
+  font-size: 3em;
+  margin: 0rem;
+}
+
+.gallery {
+  padding: 4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.artPieceContainer{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #447e8f;
+  border-radius: 16px;
+  padding: 2em;
+  margin: 0.5em;
+}
+
+.artPiece{
+  align-items: center;
+  width: 100%;
+  display:flex;
+  align-items: center;
+  filter: drop-shadow(0.3em 0.6em 0.6em #000000);
+}
+
+.artPiece--image{
+  max-width: 400px;
+  aspect-ratio: initial;
+  filter: drop-shadow(0.5em 1em 1em #111111);
+}
+
+.artPiece--HorizontalDetails {
+  border-top: 1px solid #8e8d8d;
+  display:flex;
+  justify-content: space-between;
+}
+
+.artPiece--VerticalDetails {
+  display:flex;
+  flex-direction: column;
+}
+
+.artPiece--details{
+  background-color: #242424;
+  display:flex;
+  flex-direction: column;
+  border-radius: 0 16px 16px 0;
+  filter: drop-shadow(0.5em 1em 1em #111111);
+  padding: 1em;
+}
+
+.artPiece--details > h1{
+  margin: 0.2em;
+}
+
+.artPiece--desc{
+  text-align: left;
+  text-indent: 1em;
+  max-width: 600px;
+  margin: 0em;
+  padding: 0.2em;
+}
+
+.artPiece--medium{
+  margin:0px;
+  text-align: left;
+  text-indent: 1em;
+  color: #8e8d8d;
+}
+
+.buyLink{
+  align-self: flex-end;
+  margin: 1em;
+  filter: drop-shadow(0 0 0.2em #ffffff);
+}
